@@ -9,7 +9,6 @@
 	.left{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
 		order: 2;
 	}
@@ -82,7 +81,6 @@
 	.left .btn, .learn-content{
 		display: inline-block;
 		margin-top: 20px;
-		margin-right: 20px;
 	}
 	.btn:hover{
 		color: #fff;
