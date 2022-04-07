@@ -25,6 +25,7 @@ nav{
 	justify-content: space-around;
 	align-items: center;
 	height: 50px;
+	font-family: var(--main);
 }
 nav ul{
 	display: flex;
@@ -34,6 +35,7 @@ nav ul li a{
 	text-decoration: none;
 	color: black;
 	margin-left: 100px;
+	font-size: 14px;
 }
 nav ul li a:hover{
 }
@@ -84,8 +86,6 @@ main{
 	text-decoration: none;
 	color: black;
 }
-.content{
-}
 .bg-content{
 	height: 200px;
 	display: flex;
@@ -104,11 +104,13 @@ main{
 .content-text, .content-text a{
 	color: #fff;
 	text-decoration: none;
-	font-size: 20px;
 }
 .content-text{
 	width: 35%;
 	line-height: 30px;
+	font-family: var(--main);
+	font-size: 14px;
+	z-index: 10;
 }
 .content-text a{
 	display: inline-block;
